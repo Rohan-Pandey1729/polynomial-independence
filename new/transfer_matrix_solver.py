@@ -5,12 +5,13 @@ from sympy.abc import x
 
 # --- SETTINGS FOR BETTER LEGIBILITY ---
 plt.rcParams.update({
-    'font.size': 14,          # Global font size
-    'axes.titlesize': 16,     # Title size
-    'axes.labelsize': 14,     # Axis label size
-    'legend.fontsize': 12,    # Legend size
-    'xtick.labelsize': 12,    # Tick size
-    'ytick.labelsize': 12
+    'font.size': 18,          # Was 14, make it 18 or 20
+    'axes.titlesize': 20,     # Was 16
+    'axes.labelsize': 18,     # Was 14
+    'legend.fontsize': 16,    # Was 12 <--- This is the most important one
+    'xtick.labelsize': 14,
+    'ytick.labelsize': 14,
+    'lines.markersize': 10    # Make dots slightly bigger too
 })
 
 def build_transfer_matrix(k):
